@@ -23,14 +23,14 @@ module.exports = function(config) {
       'client/lib/angular-mocks/angular-mocks.js',
       "https://cdn.firebase.com/libs/angularfire/0.8.2/angularfire.min.js",
       "https://cdn.firebase.com/js/client/1.0.21/firebase.js",
-      'client/app/*.js',
-      'client/main/main.html',
+      'client/*.js',
+      'client/views/main/main.html',
 
 
       // our app code to be tested
-      'client/top100visual/*.js',
-      'client/search/*.js',
-      'client/main/*.js',
+      'client/views/top100visual/*.js',
+      'client/views/search/*.js',
+      'client/views/main/*.js',
 
       // our spec files
       'node_modules/expect.js/index.js',
@@ -59,11 +59,11 @@ module.exports = function(config) {
     // tested app code should also be added here
     // for coverage reporting
     preprocessors: {
-      'client/top100visual/*.js': 'coverage',
-      'client/search/*.js': 'coverage',
-      'client/main/*.js': 'coverage',
-      'client/trackPost.js': 'coverage',
-      'client/trackUser.js': 'coverage'
+      'client/views/top100visual/*.js': 'coverage',
+      'client/views/search/*.js': 'coverage',
+      'client/views/main/*.js': 'coverage',
+      'client/views/trackPost.js': 'coverage',
+      'client/views/trackUser.js': 'coverage'
     },
 
 
