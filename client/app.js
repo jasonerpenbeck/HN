@@ -16,29 +16,29 @@ app.config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
     .state('main', {
       url: '/main',
-      templateUrl: 'main/main.html',
+      templateUrl: 'views/main/main.html',
       controller: 'mainController'
     })
     .state('main.subviews', {
       views: {
         'search': {
-          templateUrl: 'search/search.html',
+          templateUrl: 'views/search/search.html',
           controller: 'searchCtrl'
         },
         'top100visual': {
-          controller: 'top100visualController',
-          templateUrl: 'top100visual/top100visual.html'
+          templateUrl: 'views/top100visual/top100visual.html',
+          controller: 'top100visualController'
         },
         'trackUser': {
-          templateUrl: 'trackUser/trackUser.html',
+          templateUrl: 'views/trackUser/trackUser.html',
           controller: 'trackUserController'
         },
         'home': {
-          templateUrl: 'home/home.html',
+          templateUrl: 'views/home/home.html',
           controller: 'homeController'
         },
         'trackPost': {
-          templateUrl: 'trackPost/trackPost.html',
+          templateUrl: 'views/trackPost/trackPost.html',
           controller: 'trackPostController'
         }
       }
