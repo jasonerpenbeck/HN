@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="hackernews">
+  <head>
+    <meta charset="utf-8" />
+    <title>Hacker News</title>
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="lib/famous/dist/famous-global.js"></script>
+    <script src="lib/famous-angular/dist/famous-angular.js"></script>
+    <script src="lib/lodash/dist/lodash.min.js"></script>
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="//localhost:35729/livereload.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+  <body id="bodyMain">
+    <div ui-view></div>
+    <script src="views/articles/articles.js"></script>
+    <script src="views/charts/charts.js"></script>
+    <script src="views/cloud/cloudMain.js"></script>
+    <script src="views/cloud/cloudWords.js"></script>
+    <script src="views/users/users.js"></script>
+    <script src="views/dashboard/dashboard.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

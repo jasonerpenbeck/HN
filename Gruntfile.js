@@ -41,11 +41,15 @@ module.exports = function(grunt) {
     watch: {
       scripts: {
         files: [
-          'server/*.js',
-          'server/**/*.js',
+          'client/*.css',
           'client/*.html',
+          'client/services/*.js',
+          'client/views/**/*.js',
+          'client/views/**/*.css',
         ],
-        tasks: ['karma']
+        options: {
+          livereload: true
+        }
       }
     }
   });
