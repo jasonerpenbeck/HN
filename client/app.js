@@ -7,8 +7,8 @@ angular.module('hackernews', [
 ])
 .config(function($httpProvider, $urlRouterProvider, $stateProvider) {
   $stateProvider
-    .state('main', {
+    .state('dashboard', {
       url: '/',
-      templateUrl: 'views/cloud/cloudMain/CloudMain.html',
+      templateUrl: 'views/dashboard/dashboard.html',
     })
 });
