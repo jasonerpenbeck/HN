@@ -1,5 +1,7 @@
 angular.module('hackernews', [
   'cloud',
+  'cloudWords',
+  'dashboard',
   'famous.angular',
   'ui.router'
 ])
@@ -7,6 +9,6 @@ angular.module('hackernews', [
   $stateProvider
     .state('main', {
       url: '/',
-      templateUrl: 'views/main/main.html',
+      templateUrl: 'views/cloud/cloudMain/CloudMain.html',
     })
 });

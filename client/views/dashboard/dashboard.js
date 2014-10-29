@@ -1,5 +1,5 @@
 angular.module('dashboard', [])
-.controller('MainController', function ($scope) {
+.controller('DashboardController', function ($scope) {
   $scope.data = {
     test: 'working'
   };
