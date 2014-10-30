@@ -1,11 +1,11 @@
 var express = require('express');
 var fs = require('fs');
 var split = require('split');
+var dbRoutes = require('./database/routes').dbRouter;
 var db = require('./database/database.js');
 var https = require('https');
 var bodyParser = require('body-parser');
 var StringDecoder = require('string_decoder').StringDecoder;
-
 var app = express();
 
 // enables the views of the application to use straight HTML files.
@@ -20,6 +20,12 @@ app.set('views', __dirname + '/client');
 
 // tells the application where to go to find static files.
 app.use(express.static(__dirname + './../client'));
+
+var dbRouter = express.Router();
+
+//create mini app for all db calls
+app.use('/db', dbRouter);
+dbRoutes(dbRouter);
 
 app.use(bodyParser());
 
@@ -48,6 +54,7 @@ app.post('/findTotal', function(req, res) {
     res.send(total);
   });
 });
+
 
 ///////////////////////////////////////////////////////
 // Only used to import data into the mysql database. //
