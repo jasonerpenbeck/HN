@@ -1,5 +1,5 @@
 var Sequelize = require('sequelize');
-var credential = require('./databaseConfig.js');
+var credential = require('./databaseConfig.example.js');
 
 
 var databaseName = process.env.DB_NAME || credential.databaseName;
@@ -35,6 +35,14 @@ var sequelize = new Sequelize(databaseName, username, password, {
 //     timestamps: true
 //   }
 // });
+
+exports.findPostsForWeek = function(req,res){
+  var sendBack = {
+    result:'Request received',
+    data: 'ok'
+  };
+  res.json(sendBack);
+};
 
 module.exports.Story = sequelize.define('Story', {
   by: Sequelize.STRING,
