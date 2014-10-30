@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>lionbase</string>
+			<key>host</key>
+			<string>us-cdbr-azure-west-a.cloudapp.net</string>
+			<key>name</key>
+			<string>lionbase</string>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPTCPIPConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>bc8fa3955e6d18</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentFilter</key>
+			<dict>
+				<key>filterComparison</key>
+				<string>=</string>
+				<key>filterComparisonTag</key>
+				<integer>0</integer>
+				<key>filterField</key>
+				<string>by</string>
+				<key>filterValue</key>
+				<string>chendy</string>
+				<key>firstBetweenField</key>
+				<string></string>
+				<key>menuLabel</key>
+				<string>`by` = 'chendy'</string>
+				<key>secondBetweenField</key>
+				<string></string>
+			</dict>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGJyhYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoKgHCBMUFRYdJFUkbnVsbNMJCgsMDxJX
+			TlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6INDoACgAOiEBGABIAF
+			gAdUdHlwZVRyb3dzXxAdU2VsZWN0aW9uRGV0YWlsVHlwZU5TSW5k
+			ZXhTZXTUFwsYGRobHBxaTlNMb2NhdGlvblxOU1JhbmdlQ291bnRY
+			TlNMZW5ndGgQA4AGEAHSHh8gIVokY2xhc3NuYW1lWCRjbGFzc2Vz
+			Wk5TSW5kZXhTZXSiIiNaTlNJbmRleFNldFhOU09iamVjdNIeHyUm
+			XE5TRGljdGlvbmFyeaIlI18QD05TS2V5ZWRBcmNoaXZlctEpKlRk
+			YXRhgAEACAARABoAIwAtADIANwBAAEYATQBVAGAAZwBqAGwAbgBx
+			AHMAdQB3AHwAgQChAKoAtQDCAMsAzQDPANEA1gDhAOoA9QD4AQMB
+			DAERAR4BIQEzATYBOwAAAAAAAAIBAAAAAAAAACsAAAAAAAAAAAAA
+			AAAAAAE9
+			</data>
+			<key>contentSortCol</key>
+			<string>time</string>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{0, 0}, {1171, 655}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>queries</key>
+			<string>SELECT `by`, TopicScore, UserStories
+	FROM (SELECT `by`, sum(`score`) AS 'TopicScore', count(`by`) AS 'UserStories'
+			FROM stories 
+			WHERE Title LIKE '%angular%' 
+			GROUP BY `by`) as table1
+	ORDER BY TopicScore DESC
+	LIMIT 20;			
+</string>
+			<key>table</key>
+			<string>stories</string>
+			<key>view</key>
+			<string>SP_VIEW_CUSTOMQUERY</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>202</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>SELECT `by`, TopicScore, UserStories
+	FROM (SELECT `by`, sum(`score`) AS 'TopicScore', count(`by`) AS 'UserStories'
+			FROM stories 
+			WHERE Title LIKE '%angular%' 
+			GROUP BY `by`) as table1
+	ORDER BY TopicScore DESC
+	LIMIT 20</string>
+		<string>SELECT `by`, TopicScore, UserStories
+	FROM (SELECT `by`, sum(`score`) AS 'TopicScore', count(`by`) AS 'UserStories'
+		FROM stories 
+		WHERE Title LIKE '%angular%' 
+		GROUP BY `by`) as table1
+	ORDER BY TopicScore DESC
+	LIMIT 20</string>
+		<string>SELECT * 
+	FROM users
+	WHERE 'id' IN (
+		SELECT `by`, TopicScore, UserStories
+			FROM (SELECT `by`, sum(`score`) AS 'TopicScore', count(`by`) AS 'UserStories'
+				FROM stories 
+				WHERE Title LIKE '%angular%' 
+				GROUP BY `by`) as table1
+		ORDER BY TopicScore DESC
+		LIMIT 20)</string>
+		<string>SELECT `by`, TopicScore, UserStories
+	FROM (SELECT `by`, sum(`score`) AS 'TopicScore', count(`by`) AS 'UserStories'
+			FROM stories 
+			WHERE Title LIKE '%angular%' 
+			GROUP BY `by`) as table1
+	ORDER BY 'TopicScore' DESC
+	LIMIT 20</string>
+		<string>SELECT `by`, TopicScore, UserStories, ScoreProduct
+	FROM (SELECT `by`, sum(`score`) AS 'TopicScore', count(`by`) AS 'UserStories', ('TopicScore'*'UserStories') AS 'ScoreProduct'
+			FROM stories 
+			WHERE Title LIKE '%angular%' 
+			GROUP BY `by`) as table1
+	ORDER BY 'ScoreProduct' DESC
+	LIMIT 20</string>
+		<string>SELECT `by`, TopicScore, UserStories, ScoreProduct
+	FROM (SELECT `by`, sum(`score`) AS 'TopicScore', count(`by`) AS 'UserStories', (TopicScore*UserStories) AS 'ScoreProduct'
+			FROM stories 
+			WHERE Title LIKE '%angular%' 
+			GROUP BY `by`) as table1
+	ORDER BY 'ScoreProduct' DESC
+	LIMIT 20</string>
+		<string>SELECT `by`, TopicScore, UserStories, (TopicScore*UserStories) AS 'ScoreProduct'
+	FROM (SELECT `by`, sum(`score`) AS 'TopicScore', count(`by`) AS 'UserStories' 
+			FROM stories 
+			WHERE Title LIKE '%angular%' 
+			GROUP BY `by`) as table1
+	ORDER BY 'ScoreProduct' DESC
+	LIMIT 20</string>
+		<string>SELECT `by`, TopicScore, UserStories, (TopicScore*UserStories) AS 'ScoreProduct'
+	FROM (SELECT `by`, sum(`score`) AS 'TopicScore', count(`by`) AS 'UserStories' 
+			FROM stories 
+			WHERE Title LIKE '%angular%' 
+			GROUP BY `by`) as table1
+	ORDER BY ScoreProudct DESC
+	LIMIT 20</string>
+		<string>SELECT `by`, TopicScore, UserStories, (TopicScore/UserStories) AS 'AvgScore'
+	FROM (SELECT `by`, sum(`score`) AS 'TopicScore', count(`by`) AS 'UserStories' 
+			FROM stories 
+			WHERE Title LIKE '%angular%' 
+			GROUP BY `by`) as table1
+	ORDER BY AvgScore DESC
+	LIMIT 20</string>
+		<string>SELECT `by`, TopicScore, UserStories, (TopicScore/UserStories) AS 'AvgScore'
+	FROM (SELECT `by`, sum(`score`) AS 'TopicScore', count(`by`) AS 'UserStories' 
+			FROM stories 
+			WHERE Title LIKE '%angular%' 
+			GROUP BY `by`) as table1
+	ORDER BY TopicScore DESC
+	LIMIT 20</string>
+		<string>SELECT `by`, TopicScore, UserStories
+	FROM (SELECT `by`, sum(`score`) AS 'TopicScore', count(`by`) AS 'UserStories' 
+			FROM stories 
+			WHERE Title LIKE '%angular%' 
+			GROUP BY `by`) as table1
+	ORDER BY TopicScore DESC
+	LIMIT 20</string>
+		<string>SELECT st.* 
+	FROM (SELECT `by`, sum(`score`) AS 'TopicScore', count(`by`) AS 'UserStories' 
+			FROM stories 
+			WHERE Title LIKE '%angular%' 
+			GROUP BY `by`)
+	ORDER BY st.TopicScore DESC
+	LIMIT 20</string>
+		<string>SELECT * 
+	FROM (SELECT `by`, sum(`score`) AS 'TopicScore', count(`by`) AS 'UserStories' 
+			FROM stories 
+			WHERE Title LIKE '%angular%' 
+			GROUP BY `by`)
+	ORDER BY 'TopicScore' DESC
+	LIMIT 20</string>
+		<string>SELECT st.* 
+	FROM (SELECT sum(`score`) AS 'TopicScore', count(`by`) AS 'UserStories' 
+			FROM stories 
+			WHERE Title LIKE '%angular%' 
+			ORDER BY 'TopicScore' DESC, 'UserStories' ASC)
+	st GROUP BY st.TopicScore
+	LIMIT 20</string>
+		<string>SELECT `by`, sum(`score`) AS 'TopicScore', count(`by`) AS 'UserStories'
+	FROM stories 
+	WHERE Title LIKE '%angular%' 
+	GROUP BY `by` 
+	ORDER BY 'TopicScore' DESC, 'UserStories' ASC 
+	LIMIT 20</string>
+		<string>SELECT `by`, `url`, sum(`score`) AS 'TopicScore', count(`by`) AS 'UserStories'
+	FROM stories 
+	WHERE Title LIKE '%angular%' 
+	GROUP BY `by` 
+	ORDER BY 'TopicScore' DESC, 'UserStories' ASC 
+	LIMIT 20</string>
+		<string>SELECT `by`, `url`, sum(`score`) AS 'TopicScore', count(`by`) AS 'UserStories', DATE(FROM_UNIXTIME(time)) AS 'Date' 
+	FROM stories 
+	WHERE Title LIKE '%angular%' 
+	GROUP BY `by` 
+	ORDER BY 'TopicScore' DESC, 'UserStories' ASC 
+	LIMIT 20</string>
+		<string>SELECT `by`, `url`, `score`, `title`, count(`by`) AS 'UserStories', DATE(FROM_UNIXTIME(time)) AS 'Date' 
+	FROM stories 
+	WHERE Title LIKE '%angular%' 
+	GROUP BY `by` 
+	ORDER BY score DESC, Date DESC 
+	LIMIT 20</string>
+		<string>SELECT `by`, `url`, `score`, `title`, DATE(FROM_UNIXTIME(time)) AS 'Date' FROM stories WHERE Title LIKE '%angular%' ORDER BY score DESC, Date DESC LIMIT 20</string>
+		<string>SELECT `by`, DATE(FROM_UNIXTIME(time)) AS 'Date' FROM stories WHERE Title LIKE '%angular%' ORDER BY score DESC, Date DESC LIMIT 20</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.5.21-log</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>
