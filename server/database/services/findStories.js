@@ -1,4 +1,4 @@
-var findStories = function(req) {
+exports.findStories = function(req) {
   return {
     day: csv.parse('./database/queries/top20/top20_stories_1d_',+req+'.csv'),
     week: csv.parse('./database/queries/top20/top20_stories_1w_',+req+'.csv'),

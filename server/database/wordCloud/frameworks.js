@@ -1,4 +1,4 @@
-var wordCloudFrameworks=[
+exports.wordCloudFrameworks=[
 'jQuery',
 'Angular',
 'Ember',
