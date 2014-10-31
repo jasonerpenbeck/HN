@@ -4,11 +4,22 @@ angular.module('topics', [])
     var getTopicsList = function(request){
       return $http({
         method: 'GET',
-        url: 'api/topics',
+        url: 'api/topicsList',
         params: request
       })
       .then(function(response){
         currentData.topics = response.data;
       })
+      .catch(function(error) {
+        console.error(error);
+      })
+    }
+
+    var setCurrentTopic = function(request){
+      //working on it
+    }
+
+    return {
+      getTopicsList: getTopicsList
     }
   })

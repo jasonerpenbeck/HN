@@ -5,7 +5,8 @@ angular.module('storedData', [])
       currentTopic: null,
       topics: [],
       users: [],
-      stories: []
+      stories: [],
+      graphData: []
 
     }
   })
