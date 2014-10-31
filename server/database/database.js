@@ -1,10 +1,14 @@
 var Sequelize = require('sequelize');
 var credential = require('./databaseConfig.example.js');
-
+var csv = require('csv-to-json');
+var scoreData = require('./services/findPostsForWeek.js');
+var userData = require('./services/findUsers.js');
+var storyData = require('./services/findStories.js');
 
 var databaseName = process.env.DB_NAME || credential.databaseName;
 var username = process.env.DB_USERNAME || credential.username;
 var password = process.env.DB_PASSWORD || credential.password;
+
 
 // AZUREWEBSITE IMPLEMENTATION
 var sequelize = new Sequelize(databaseName, username, password, {
@@ -36,12 +40,18 @@ var sequelize = new Sequelize(databaseName, username, password, {
 //   }
 // });
 
-exports.findPostsForWeek = function(req,res){
+exports.findPostsForTopic = function(req,res){
+  console.log('Req: ',req);
   var sendBack = {
-    result:'Request received',
-    data: 'ok'
+    result: 'Request Received',
+    data: {
+      score: scoreData.findPostsforWeek(req),
+      users: userData.findUsers(req),
+      stories: storyData.findStories(req)
+    }
   };
-  res.json(sendBack);
+
+  res.json(sendback);
 };
 
 module.exports.Story = sequelize.define('Story', {
@@ -122,7 +132,7 @@ module.exports.create = function(itemName, items) {
       if (end > items.length) {
         end = items.length;
       }
-      
+
       var subItems = items.slice(start, end);
 
       itemName.bulkCreate(subItems)
@@ -141,7 +151,7 @@ module.exports.create = function(itemName, items) {
         //       console.log( addedItems.length + " items added to the " + addedItems.type + " table!" );
         //     });
         // });
-         
+
     }
 
   }
