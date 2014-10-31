@@ -26,7 +26,7 @@ var dbRouter = express.Router();
 var wcRouter = express.Router();
 
 //create mini app for all db calls
-app.use('/db', dbRouter);
+app.use('/api', dbRouter);
 dbRoutes(dbRouter);
 
 //create mini app for all wordCloud calls
