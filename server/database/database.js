@@ -14,13 +14,13 @@ exports.findPostsForTopic = function(req,res){
   var sendBack = {
     result: 'Request Received',
     data: {
-      score: scoreData.findPostsforWeek(req.query.topic),
+      score: scoreData.findPostsForWeek(req),
       users: userData.findUsers(req.query.topic),
       stories: storyData.findStories(req.query.topic)
     }
   };
 
-  res.json(sendback);
+  res.json(sendBack);
 };
 
 // AZUREWEBSITE IMPLEMENTATION
