@@ -1,17 +1,56 @@
-#bodyMain {
+body {
   height: 100%;
-  width: 100%;
   background-color: #f9f9f9;
 }
-
-.a_main {
-  width: 1200px;
-  height: 100%;
+#bodyMain {
+  background-color: #C5D8D9;
 }
-.cloudMain {
+
+.dash {
+  height: 575px;
+  width: 1200px;
+  margin: 50px auto 50px auto;
+  border: 2px black solid;
+  border-radius: 5px;
+  background-color: #FAC166;
+  box-shadow: 0px 10px 10px #888888;
+}
+.cloud {
+  height: 80%;
   width: 500px;
-  height: 500px;
-  margin: 0 auto 0 auto;
-  background-color: black;
-  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border: 1px black solid;
+  border-radius: 5px;
+  background-color: #E3E3E3;
+  box-shadow: 0px 10px 10px #888888;
+}
+
+.cloudWords {
+  height: 20px;
+  width: 100px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: red;
+}
+
+.articleContainer {
+  height: 200px;
+  width: 400px;
+  margin: 50px auto 25px auto;
+  border: 1px black solid;
+  border-radius: 5px;
+  background-color: red;
+  box-shadow: 0px 10px 10px #888888;
+}
+
+.usersContainer {
+  height: 200px;
+  width: 400px;
+  margin: 25px auto 50px auto;
+  border: 1px black solid;
+  border-radius: 5px;
+  background-color: green;
+  box-shadow: 0px 10px 10px #888888;
 }
