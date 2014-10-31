@@ -1,14 +1,14 @@
 <div class="row" ng-controller="DashboardController">
 
   <div class="col-xs-offset-1 col-xs-10 dashboard">
-    TEST
+    <div class="topic-header">{{currentTopic}}</div>
     <!-- <ng-include src="'views/cloud/main/cloud.html'" ng-show=""></ng-include> -->
 
     <div class="row">
-      <div class="col-xs-6">
+      <div class="col-xs-7">
           <ng-include src="'views/chart/chart.html'"></ng-include>
       </div>
-      <div class="col-xs-6">
+      <div class="col-xs-5">
         <div class="row">
           <ng-include src="'views/users/users.html'"></ng-include>
         </div>

@@ -1,8 +1,8 @@
 <div class="usersContainer" ng-controller="UserController">
-  TOP users
+  <div class="top-header">TOP users</div>
   <ul>
     <li ng-repeat="user in users">
-      {{user}}
+      <a href="/">{{user}}</a><span> - 124 score</span>
     </li>
   </ul>
 </div>
