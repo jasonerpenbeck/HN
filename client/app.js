@@ -7,7 +7,7 @@ angular.module('hackernews', [
   'chart',
   'ui.router'
 ])
-  .config(function($httpProvider, $urlRouterProvider, $stateProvider, $routeProvider) {
+  .config(function($httpProvider, $urlRouterProvider, $stateProvider) {
     $stateProvider
       .state('dashboard', {
         url: '/',
