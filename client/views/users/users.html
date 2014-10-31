@@ -1,5 +1,8 @@
-<div class="pull-right usersContainer" ng-controller="UserController">
-  <div ng-repeat="user in users">
-    {{user}}
-  </div>
+<div class="usersContainer" ng-controller="UserController">
+  TOP users
+  <ul>
+    <li ng-repeat="user in users">
+      {{user}}
+    </li>
+  </ul>
 </div>
