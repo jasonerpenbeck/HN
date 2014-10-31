@@ -5,7 +5,7 @@ angular.module('articles', [])
       {title: 'meteor'},
       {title: 'angular'},
       {title: 'lodash'},
-      {tile: 'underscore'}
+      {title: 'underscore'}
     ]
   };
 });
