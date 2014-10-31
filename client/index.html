@@ -5,6 +5,7 @@
     <title>Hacker News</title>
     <script src="lib/angular/angular.js"></script>
     <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="lib/angular-route/angular-route.js"></script>
     <script src="lib/lodash/dist/lodash.min.js"></script>
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -14,8 +15,13 @@
   </head>
   <body id="bodyMain">
     <div ui-view></div>
-    <script src="views/articles/articles.js"></script>
-    <script src="views/charts/charts.js"></script>
+    <!-- <ng-view></ng-view> -->
+    <script src="services/data.js"></script>
+    <script src="services/global.js"></script>
+    <script src="services/topics.js"></script>
+
+    <script src="views/stories/stories.js"></script>
+    <script src="views/chart/chart.js"></script>
     <script src="views/cloud/main/cloud.js"></script>
     <script src="views/cloud/words/cloudWords.js"></script>
     <script src="views/users/users.js"></script>

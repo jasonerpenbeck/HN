@@ -1,6 +1,4 @@
 angular.module('dashboard', [])
-.controller('DashboardController', function ($scope) {
-  $scope.data = {
-    test: 'working'
-  };
-});
+  .controller('DashboardController', function ($scope) {
+
+  });

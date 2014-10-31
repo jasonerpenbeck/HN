@@ -1,11 +1,4 @@
-angular.module('users', [])
-.controller('UserController', function ($scope) {
-  $scope.data = {
-    users: [
-      {name: 'rick'},
-      {name: 'jamon'},
-      {name: 'kia'},
-      {name: 'jason'}
-    ]
-  };
-});
+angular.module('users', ['storedData'])
+  .controller('UserController', function ($scope, CurrentData) {
+    $scope.users = CurrentData.users;
+  });
