@@ -1,3 +1,4 @@
+
 var db = require('./services/findPostsForWeek');
 
 exports.dbRouter = function(app) {
