@@ -1,4 +1,4 @@
-var db = require('./database/database');
+var db = require('./database/database.js');
 
 exports.dbRouter = function(app) {
 
