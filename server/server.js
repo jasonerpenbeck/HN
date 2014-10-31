@@ -2,6 +2,7 @@ var express = require('express');
 var fs = require('fs');
 var split = require('split');
 var dbRoutes = require('./routes').dbRouter;
+var wcRoutes = require('./routes').wcRouter;
 var db = require('./database/database.js');
 var https = require('https');
 var bodyParser = require('body-parser');
@@ -22,10 +23,15 @@ app.set('views', __dirname + '/client');
 app.use(express.static(__dirname + './../client'));
 
 var dbRouter = express.Router();
+var wcRouter = express.Router();
 
 //create mini app for all db calls
 app.use('/db', dbRouter);
 dbRoutes(dbRouter);
+
+//create mini app for all wordCloud calls
+app.use('/wc', wcRouter);
+wcRoutes(wcRouter);
 
 app.use(bodyParser());
 
@@ -120,34 +126,34 @@ app.get('/importData', function(req, res) {
     .pipe(split())
     .on('data', function (item) {
       item = JSON.parse(item);
-      
+
       if (item.type === 'story') {
-      
+
         item.kids = JSON.stringify(item.kids);
         stories.push(item);
-      
+
       } else if (item.type === 'comment') {
-      
+
         item.kids = JSON.stringify(item.kids);
         comments.push(item);
-      
+
       } else if (item.type === 'job') {
-      
+
         jobs.push(item);
-      
+
       } else if (item.type === 'poll') {
-      
+
         item.kids = JSON.stringify(item.kids);
         polls.push(item);
-      
+
       } else if (item.type === 'polloption') {
-      
+
         pollOptions.push(item);
-      
+
       }
 
       if (username.indexOf(item.by) === -1) {
-        
+
         var newUser = {
           about: null,
           created: null,
@@ -156,7 +162,7 @@ app.get('/importData', function(req, res) {
           karma: null,
           submitted: null
         };
-        
+
         username.push(item.by);
         users.push(newUser);
       }

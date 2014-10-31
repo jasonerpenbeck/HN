@@ -1,24 +1,30 @@
-exports.wordCloudFrameworks=[
-'jQuery',
-'Angular',
-'Ember',
-'Backbone',
-'Meteor',
-'D3',
-'OpenGL',
-'WebGL',
-'Node.js',
-'famo.us',
-'Mithril',
-'React',
-'Flux',
-'Kendo',
-'Sencha',
-'Bootstrap',
-'JSON',
-'Sprout',
-'Rust',
-'Drupal',
-'ToroDB',
-'mongo'
-];
+exports.wcFrameworks= function(req, res) {
+
+  var sendBack = {
+    results: 'Request Received',
+    data: [
+    'Angular',
+    'Backbone',
+    'Bootstrap',
+    'D3',
+    'Drupal',
+    'Ember',
+    'famo.us',
+    'Flux',
+    'jQuery',
+    'JSON',
+    'Kendo',
+    'Meteor',
+    'Mithril',
+    'mongo',
+    'Node.js',
+    'OpenGL',
+    'React',
+    'Rust',
+    'Sencha',
+    'WebGL'
+    ]
+  };
+
+  res.json(sendBack);
+};
