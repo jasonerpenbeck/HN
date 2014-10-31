@@ -1,6 +1,5 @@
 angular.module('hackernews', [
   'cloud',
-  'cloudWords',
   'dashboard',
   'stories',
   'users',
