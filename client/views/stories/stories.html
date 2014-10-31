@@ -1,8 +1,11 @@
 <div class="stories" ng-controller="StoriesController">
-  <div class="">TOP stories</div>
+
+  <div class="top-header">TOP stories</div>
+
   <ul>
     <li ng-repeat="story in stories">
-      {{story.title}}
+      <a href="/">{{story.title}}</a><span> - 124 score</span>
     </li>
   </ul>
+
 </div>
