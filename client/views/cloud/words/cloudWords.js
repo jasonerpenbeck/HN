@@ -1,6 +1,6 @@
 angular.module('cloudWords', [])
 .controller('CloudWordController', function ($scope) {
-  $scope.data = {
-    test: 'working'
-  };
+  // $scope.data = {
+  //   test: 'working'
+  // };
 });

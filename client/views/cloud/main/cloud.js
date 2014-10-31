@@ -1,6 +1,11 @@
 angular.module('cloud', [])
 .controller('CloudController', function ($scope) {
   $scope.data = {
-    test: 'working'
+    topics: [
+      {name: 'meteor'},
+      {name: 'angular'},
+      {name: 'lodash'},
+      {name: 'underscore'}
+    ]
   };
 });
