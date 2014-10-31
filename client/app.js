@@ -10,7 +10,7 @@ angular.module('hackernews', [
   .config(function($httpProvider, $urlRouterProvider, $stateProvider) {
     $stateProvider
       .state('dashboard', {
-        url: '/',
+        url: '',
         templateUrl: 'views/dashboard/dashboard.html'
       })
   });

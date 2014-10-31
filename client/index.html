@@ -9,14 +9,15 @@
     <script src="lib/lodash/dist/lodash.min.js"></script>
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="lib/d3/d3.min.js"></script>
     <script src="//localhost:35729/livereload.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
     <link href='http://fonts.googleapis.com/css?family=Orbitron:400,500,700|Jura:500,400,300' rel='stylesheet' type='text/css'>
   </head>
   <body id="bodyMain">
+    <ng-include src="'views/cloud/main/cloud.html'"></ng-include>
     <div ui-view></div>
-    <!-- <ng-view></ng-view> -->
     <script src="services/data.js"></script>
     <script src="services/global.js"></script>
     <script src="services/topics.js"></script>
