@@ -11,11 +11,10 @@ var password = process.env.DB_PASSWORD || credential.password;
 
 
 exports.findPostsForTopic = function(req,res){
-  console.log('Req: ',req);
   var sendBack = {
     result: 'Request Received',
     data: {
-      score: scoreData.findPostsforWeek(req),
+      score: scoreData.findPostsForWeek(req),
       users: userData.findUsers(req),
       stories: storyData.findStories(req)
     }
