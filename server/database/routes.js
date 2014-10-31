@@ -1,6 +1,6 @@
-var db = require('./database');
+var db = require('./database.js');
 
 exports.dbRouter = function(app) {
 
-  app.get('/findPostsForWeek', db.findPostsForWeek);
+  app.get('/findTopic', db.findPostsForTopic);
 };

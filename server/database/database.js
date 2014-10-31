@@ -10,6 +10,20 @@ var username = process.env.DB_USERNAME || credential.username;
 var password = process.env.DB_PASSWORD || credential.password;
 
 
+exports.findPostsForTopic = function(req,res){
+  console.log('Req: ',req);
+  var sendBack = {
+    result: 'Request Received',
+    data: {
+      score: scoreData.findPostsforWeek(req),
+      users: userData.findUsers(req),
+      stories: storyData.findStories(req)
+    }
+  };
+
+  res.json(sendback);
+};
+
 // AZUREWEBSITE IMPLEMENTATION
 var sequelize = new Sequelize(databaseName, username, password, {
   host: 'us-cdbr-azure-west-a.cloudapp.net',
@@ -40,19 +54,7 @@ var sequelize = new Sequelize(databaseName, username, password, {
 //   }
 // });
 
-exports.findPostsForTopic = function(req,res){
-  console.log('Req: ',req);
-  var sendBack = {
-    result: 'Request Received',
-    data: {
-      score: scoreData.findPostsforWeek(req),
-      users: userData.findUsers(req),
-      stories: storyData.findStories(req)
-    }
-  };
 
-  res.json(sendback);
-};
 
 module.exports.Story = sequelize.define('Story', {
   by: Sequelize.STRING,
