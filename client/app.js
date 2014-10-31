@@ -5,8 +5,7 @@ angular.module('hackernews', [
   'stories',
   'users',
   'chart',
-  'ui.router',
-  'ngRoute'
+  'ui.router'
 ])
   .config(function($httpProvider, $urlRouterProvider, $stateProvider, $routeProvider) {
     $stateProvider
@@ -15,21 +14,3 @@ angular.module('hackernews', [
         templateUrl: 'views/dashboard/dashboard.html'
       })
   });
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // $routeProvider
-    //   .when('/', {
-    //     templateUrl: 'views/dashboard/dashboard.html',
-    //     controller: 'DashboardController'
-    //   })
