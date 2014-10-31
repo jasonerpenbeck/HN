@@ -10,7 +10,7 @@ var username = process.env.DB_USERNAME || credential.username;
 var password = process.env.DB_PASSWORD || credential.password;
 
 
-exports.findPostsForTopic = function(req,res){
+exports.findPostsForTopic = function(req,res) {
   var sendBack = {
     result: 'Request Received',
     data: {
