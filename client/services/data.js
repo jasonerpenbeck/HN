@@ -1,6 +1,5 @@
-angular.module('data', [])
-
-  .factory('DataFactory', function($http, currentData){
+angular.module('data', ['storedData']) //bug in the Global??
+  .factory('DataFactory', function($http, CurrentData){
 
     var getData = function(request){
       return $http({
@@ -9,9 +8,9 @@ angular.module('data', [])
         params: request
       })
       .then(function(response){
-        currentData.graphData = response.data.graphData;
-        currentData.stories = response.data.stories;
-        currentData.users = response.data.users;
+        CurrentData.graphData = response.data.graphData;
+        CurrentData.stories = response.data.stories;
+        CurrentData.users = response.data.users;
       })
       .catch(function(error) {
         console.error(error);

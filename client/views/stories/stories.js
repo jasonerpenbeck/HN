@@ -1,11 +1,4 @@
-angular.module('articles', [])
-.controller('ArticleController', function ($scope) {
-  $scope.data = {
-    articles: [
-      {title: 'meteor'},
-      {title: 'angular'},
-      {title: 'lodash'},
-      {title: 'underscore'}
-    ]
-  };
-});
+angular.module('stories', ['storedData'])
+  .controller('StoriesController', function ($scope, CurrentData) {
+    $scope.data = CurrentData.stories;
+  });
