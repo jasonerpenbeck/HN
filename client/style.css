@@ -69,3 +69,20 @@ div.cloud > span.wordtopics {
   text-shadow: 0px -2px 2px #888888;
   font-family: 'Maven Pro', sans-serif;
 }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
