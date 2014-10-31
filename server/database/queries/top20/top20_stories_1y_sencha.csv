@@ -1,5 +1,5 @@
-"id","by","kids","score","time","title","type","url","createdAt","updatedAt"
-8100533,"ytNumbers",NULL,3,1406603713,"Disenchanted with Putin, some Russians vote with their feet","story","http://www.reuters.com/article/2014/07/24/us-russia-putin-emigration-idUSKBN0FT0J120140724","2014-10-23 05:30:32","2014-10-23 05:30:32"
-7180770,"grflynn",NULL,2,1391553915,"Announcing Sencha Space","story","http://www.sencha.com/blog/announcing-sencha-space","2014-10-24 05:10:29","2014-10-24 05:10:29"
-7864233,"Yakulu",NULL,1,1402214192,"Sencha Ext JS 5 released with touch, MVVM and responsive layouts","story","http://www.sencha.com/blog/announcing-sencha-ext-js-5/","2014-10-23 05:30:33","2014-10-23 05:30:33"
-7644878,"ahomeDesk",NULL,1,1398402872,"Hammer.js, Ext, Flex,Sencha Touch, Google Maps and more ... for Java Developers","story","http://opensource.ahome-it.com/","2014-10-23 05:30:33","2014-10-23 05:30:33"
+id,by,kids,score,time,title,type,url,createdAt,updatedAt
+8100533,ytNumbers,NULL,3,1406603713,Disenchanted with Putin, some Russians vote with their feet,story,http://www.reuters.com/article/2014/07/24/us-russia-putin-emigration-idUSKBN0FT0J120140724,2014-10-23 05:30:32,2014-10-23 05:30:32
+7180770,grflynn,NULL,2,1391553915,Announcing Sencha Space,story,http://www.sencha.com/blog/announcing-sencha-space,2014-10-24 05:10:29,2014-10-24 05:10:29
+7864233,Yakulu,NULL,1,1402214192,Sencha Ext JS 5 released with touch, MVVM and responsive layouts,story,http://www.sencha.com/blog/announcing-sencha-ext-js-5/,2014-10-23 05:30:33,2014-10-23 05:30:33
+7644878,ahomeDesk,NULL,1,1398402872,Hammer.js, Ext, Flex,Sencha Touch, Google Maps and more ... for Java Developers,story,http://opensource.ahome-it.com/,2014-10-23 05:30:33,2014-10-23 05:30:33

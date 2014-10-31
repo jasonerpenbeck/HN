@@ -1,9 +1,9 @@
-"id","by","kids","score","time","title","type","url","createdAt","updatedAt"
-8443752,"disapproval","[\"8445840\",\"8444047\",\"8443996\"]",6,1413070954,"Ask HN: Solving a founder dispute in a successful bootstrapped startup?","story","","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8433126,"aaxe",NULL,6,1412870007,"Sol Orwell on Bootstrapping Examine.com to Profitability","story","http://signaltower.co/sol-orwell/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8421606,"DaveJn",NULL,6,1412694987,"Bootstrap 3 Social Share template","story","http://www.prepbootstrap.com/bootstrap-template/bootstrap-social-share-plugin","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8441303,"angelostudio",NULL,3,1413003108,"Really nice a clean Bootstrap Blog","story","https://wrapbootstrap.com/theme/key-lime-parallax-blog-theme-WB062D26M","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8429071,"niutech",NULL,1,1412797941,"Pinegrow 1.23 with AngularJS, Bootstrap and Foundation support is on sale","story","https://madmimi.com/p/4b1265","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8425260,"DSBOX",NULL,1,1412741203,"MVP Video on a BOOTSTRAP","story","","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8416012,"codecondo",NULL,1,1412605706,"How to Create a Responsive Bootstrap Website","story","http://codecondo.com/how-to-create-a-responsive-bootstrap-website/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8414858,"DaveJn",NULL,1,1412585057,"Bootstrap 3 pricing table","story","http://www.prepbootstrap.com/bootstrap-template/big-pricing-table","2014-10-23 05:30:31","2014-10-23 05:30:31"
+id,by,kids,score,time,title,type,url,createdAt,updatedAt
+8443752,disapproval,[8445840,8444047,8443996],6,1413070954,Ask HN: Solving a founder dispute in a successful bootstrapped startup?,story,,2014-10-23 05:30:31,2014-10-23 05:30:31
+8433126,aaxe,NULL,6,1412870007,Sol Orwell on Bootstrapping Examine.com to Profitability,story,http://signaltower.co/sol-orwell/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8421606,DaveJn,NULL,6,1412694987,Bootstrap 3 Social Share template,story,http://www.prepbootstrap.com/bootstrap-template/bootstrap-social-share-plugin,2014-10-23 05:30:31,2014-10-23 05:30:31
+8441303,angelostudio,NULL,3,1413003108,Really nice a clean Bootstrap Blog,story,https://wrapbootstrap.com/theme/key-lime-parallax-blog-theme-WB062D26M,2014-10-23 05:30:31,2014-10-23 05:30:31
+8429071,niutech,NULL,1,1412797941,Pinegrow 1.23 with AngularJS, Bootstrap and Foundation support is on sale,story,https://madmimi.com/p/4b1265,2014-10-23 05:30:31,2014-10-23 05:30:31
+8425260,DSBOX,NULL,1,1412741203,MVP Video on a BOOTSTRAP,story,,2014-10-23 05:30:31,2014-10-23 05:30:31
+8416012,codecondo,NULL,1,1412605706,How to Create a Responsive Bootstrap Website,story,http://codecondo.com/how-to-create-a-responsive-bootstrap-website/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8414858,DaveJn,NULL,1,1412585057,Bootstrap 3 pricing table,story,http://www.prepbootstrap.com/bootstrap-template/big-pricing-table,2014-10-23 05:30:31,2014-10-23 05:30:31

@@ -1,21 +1,21 @@
-"id","by","kids","score","time","title","type","url","createdAt","updatedAt"
-8417127,"toddmotto","[\"8417470\",\"8417181\",\"8417257\",\"8418762\",\"8417510\",\"8417278\",\"8418188\",\"8418266\",\"8420134\",\"8418051\",\"8417300\"]",173,1412617784,"AngularJS Tutorial: A Comprehensive 10,000 Word Guide","story","http://www.airpair.com/angularjs?ti=#MxkrVCfYlQfeQLBy.99","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8445679,"harrisonp","[\"8448568\",\"8447576\",\"8446367\",\"8447149\",\"8446340\",\"8446668\",\"8446845\",\"8447390\",\"8446141\",\"8446530\",\"8448006\",\"8446085\"]",118,1413130510,"AngularJS Style Guide","story","https://gocardless.com/blog/angularjs-style-guide/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8420948,"JDoty","[\"8420960\",\"8421833\"]",23,1412688485,"Show HN: Ng-eocities – A library of retro Angular directives","story","https://github.com/KatzInHatz/ng-eocities","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8421087,"bceagle","[\"8422071\",\"8422063\",\"8421355\",\"8432507\"]",16,1412690190,"What's wrong with Angular.js","story","https://medium.com/@steida/whats-wrong-with-angular-js-97b0a787f903","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8434974,"adamnemecek",NULL,15,1412888012,"Handling JSON Web Tokens with Angular","story","https://auth0.com/blog/2014/10/01/handling-jwts-on-angular-is-finally-easier/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8420628,"eskimobloood","[\"8420920\"]",12,1412682822,"What’s wrong with Angular.js","story","https://medium.com/este-js-framework/whats-wrong-with-angular-js-97b0a787f903","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8438206,"rvikmanis",NULL,8,1412955046,"Show HN: Pure-hn – Real-time Hacker News UI in AngularJS and Firebase","story","http://rvikmanis.github.io/pure-hn/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8436906,"pyprism","[\"8437002\",\"8437241\",\"8437393\"]",8,1412933620,"Hacker News Built with Angularjs","story","https://hn-ng.firebaseapp.com/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8441741,"daw___",NULL,4,1413021674,"AngularDart 1.0 Has Landed","story","http://blog.angulardart.org/2014/10/angulardart-10-has-landed.html","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8441802,"EugeneOZ",NULL,3,1413024268,"AngularDart 1.0 release","story","http://blog.angulardart.org/2014/10/angulardart-10-has-landed.html?m=1","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8431335,"hubertlepicki",NULL,3,1412843432,"5 Cool AngularJS libraries","story","https://www.amberbit.com/blog/2014/10/9/5-cool-angularjs-libraries/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8420414,"tilt",NULL,3,1412678486,"Mean-stack.io: Source for MongoDB, Express, Angular and Node.js Related Content","story","http://mean-stack.io/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8417726,"tilt",NULL,3,1412623679,"AngularJS and Salesforce1 at Dreamforce 14","story","https://developer.salesforce.com/blogs/developer-relations/2014/10/angularjs-salesforce1-dreamforce-14.html","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8445770,"tosh",NULL,2,1413132425,"Angular.dart 1.0","story","http://blog.angulardart.org/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8445442,"Frinkahedron",NULL,2,1413126077,"My first Game + my first angular project","story","http://sliderga.me/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8442823,"tosh",NULL,2,1413049927,"Dart: Angular 1.0","story","https://github.com/angular/angular.dart/blob/master/CHANGELOG.md","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8429836,"mgonto",NULL,2,1412808014,"Storage done right for AngularJS","story","http://auze.ro/angular-stoarge-namespaces","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8426264,"hashx",NULL,2,1412766250,"Defending AngularJS","story","https://medium.com/@jeffwhelpley/defending-angularjs-bfb056f8af5e","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8416450,"mjhea0",NULL,2,1412610380,"Flask by Example – Integrating Flask and AngularJS","story","https://realpython.com/blog/python/flask-by-example-integrating-flask-and-angularjs#.VDK5FDhUNTk.hackernews","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8444929,"gsatyac",NULL,1,1413110036,"Awesome Node/AngularJS developer needed","story","","2014-10-23 05:30:31","2014-10-23 05:30:31"
+id,by,kids,score,time,title,type,url,createdAt,updatedAt
+8417127,toddmotto,[8417470,8417181,8417257,8418762,8417510,8417278,8418188,8418266,8420134,8418051,8417300],173,1412617784,AngularJS Tutorial: A Comprehensive 10,000 Word Guide,story,http://www.airpair.com/angularjs?ti=#MxkrVCfYlQfeQLBy.99,2014-10-23 05:30:31,2014-10-23 05:30:31
+8445679,harrisonp,[8448568,8447576,8446367,8447149,8446340,8446668,8446845,8447390,8446141,8446530,8448006,8446085],118,1413130510,AngularJS Style Guide,story,https://gocardless.com/blog/angularjs-style-guide/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8420948,JDoty,[8420960,8421833],23,1412688485,Show HN: Ng-eocities – A library of retro Angular directives,story,https://github.com/KatzInHatz/ng-eocities,2014-10-23 05:30:31,2014-10-23 05:30:31
+8421087,bceagle,[8422071,8422063,8421355,8432507],16,1412690190,What's wrong with Angular.js,story,https://medium.com/@steida/whats-wrong-with-angular-js-97b0a787f903,2014-10-23 05:30:31,2014-10-23 05:30:31
+8434974,adamnemecek,NULL,15,1412888012,Handling JSON Web Tokens with Angular,story,https://auth0.com/blog/2014/10/01/handling-jwts-on-angular-is-finally-easier/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8420628,eskimobloood,[8420920],12,1412682822,What’s wrong with Angular.js,story,https://medium.com/este-js-framework/whats-wrong-with-angular-js-97b0a787f903,2014-10-23 05:30:31,2014-10-23 05:30:31
+8438206,rvikmanis,NULL,8,1412955046,Show HN: Pure-hn – Real-time Hacker News UI in AngularJS and Firebase,story,http://rvikmanis.github.io/pure-hn/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8436906,pyprism,[8437002,8437241,8437393],8,1412933620,Hacker News Built with Angularjs,story,https://hn-ng.firebaseapp.com/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8441741,daw___,NULL,4,1413021674,AngularDart 1.0 Has Landed,story,http://blog.angulardart.org/2014/10/angulardart-10-has-landed.html,2014-10-23 05:30:31,2014-10-23 05:30:31
+8441802,EugeneOZ,NULL,3,1413024268,AngularDart 1.0 release,story,http://blog.angulardart.org/2014/10/angulardart-10-has-landed.html?m=1,2014-10-23 05:30:31,2014-10-23 05:30:31
+8431335,hubertlepicki,NULL,3,1412843432,5 Cool AngularJS libraries,story,https://www.amberbit.com/blog/2014/10/9/5-cool-angularjs-libraries/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8420414,tilt,NULL,3,1412678486,Mean-stack.io: Source for MongoDB, Express, Angular and Node.js Related Content,story,http://mean-stack.io/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8417726,tilt,NULL,3,1412623679,AngularJS and Salesforce1 at Dreamforce 14,story,https://developer.salesforce.com/blogs/developer-relations/2014/10/angularjs-salesforce1-dreamforce-14.html,2014-10-23 05:30:31,2014-10-23 05:30:31
+8445770,tosh,NULL,2,1413132425,Angular.dart 1.0,story,http://blog.angulardart.org/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8445442,Frinkahedron,NULL,2,1413126077,My first Game + my first angular project,story,http://sliderga.me/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8442823,tosh,NULL,2,1413049927,Dart: Angular 1.0,story,https://github.com/angular/angular.dart/blob/master/CHANGELOG.md,2014-10-23 05:30:31,2014-10-23 05:30:31
+8429836,mgonto,NULL,2,1412808014,Storage done right for AngularJS,story,http://auze.ro/angular-stoarge-namespaces,2014-10-23 05:30:31,2014-10-23 05:30:31
+8426264,hashx,NULL,2,1412766250,Defending AngularJS,story,https://medium.com/@jeffwhelpley/defending-angularjs-bfb056f8af5e,2014-10-23 05:30:31,2014-10-23 05:30:31
+8416450,mjhea0,NULL,2,1412610380,Flask by Example – Integrating Flask and AngularJS,story,https://realpython.com/blog/python/flask-by-example-integrating-flask-and-angularjs#.VDK5FDhUNTk.hackernews,2014-10-23 05:30:31,2014-10-23 05:30:31
+8444929,gsatyac,NULL,1,1413110036,Awesome Node/AngularJS developer needed,story,,2014-10-23 05:30:31,2014-10-23 05:30:31
