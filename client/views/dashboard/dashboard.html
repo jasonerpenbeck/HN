@@ -1,12 +1,23 @@
-<div class="container dash" ng-controller="DashboardController">
+<div class="row" ng-controller="DashboardController">
 
-  <ng-include src="'views/cloud/main/cloud.html'"></ng-include>
-  <div class="row">
-    <div>
-      <ng-include src="'views/users/users.html'"></ng-include>
+  <div class="col-xs-offset-1 col-xs-10 dashboard">
+    TEST
+    <!-- <ng-include src="'views/cloud/main/cloud.html'" ng-show=""></ng-include> -->
+
+    <div class="row">
+      <div class="col-xs-6">
+          <ng-include src="'views/chart/chart.html'"></ng-include>
+      </div>
+      <div class="col-xs-6">
+        <div class="row">
+          <ng-include src="'views/users/users.html'"></ng-include>
+        </div>
+        <div class="row">
+          <ng-include src="'views/stories/stories.html'"></ng-include>
+        </div>
+      </div>
+
     </div>
-    <ng-include src="'views/chart/chart.html'"></ng-include>
-    <ng-include src="'views/stories/stories.html'"></ng-include>
 
   </div>
 
