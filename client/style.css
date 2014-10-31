@@ -2,6 +2,10 @@ body {
   height: 100%;
   background-color: #f9f9f9;
 }
+
+li {
+  background-color: white;
+}
 #bodyMain {
   background-color: #C5D8D9;
 }
@@ -35,7 +39,7 @@ body {
   background-color: red;
 }
 
-.articleContainer {
+.stories {
   height: 200px;
   width: 400px;
   margin: 50px auto 25px auto;
@@ -53,4 +57,10 @@ body {
   border-radius: 5px;
   background-color: green;
   box-shadow: 0px 10px 10px #888888;
+}
+
+.chart {
+  height: 50px;
+  width: 1100px;
+  background-color: blue;
 }

@@ -1,5 +1,7 @@
-<div class="pull-right StoriesContainer" ng-controller="StoriesController">
-  <div ng-repeat="story in data.Storiess">
-    {{story.title}}
-  </div>
+<div class="pull-right stories" ng-controller="StoriesController">
+  <ul>
+    <li ng-repeat="story in stories">
+      {{story.title}}
+    </li>
+  </ul>
 </div>

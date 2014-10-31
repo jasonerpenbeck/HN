@@ -2,14 +2,34 @@ angular.module('hackernews', [
   'cloud',
   'cloudWords',
   'dashboard',
-  'articles',
+  'stories',
   'users',
-  'ui.router'
+  'chart',
+  'ui.router',
+  'ngRoute'
 ])
-.config(function($httpProvider, $urlRouterProvider, $stateProvider) {
-  $stateProvider
-    .state('dashboard', {
-      url: '',
-      templateUrl: 'views/dashboard/dashboard.html',
-    })
-});
+  .config(function($httpProvider, $urlRouterProvider, $stateProvider, $routeProvider) {
+    $stateProvider
+      .state('dashboard', {
+        url: '/',
+        templateUrl: 'views/dashboard/dashboard.html'
+      })
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // $routeProvider
+    //   .when('/', {
+    //     templateUrl: 'views/dashboard/dashboard.html',
+    //     controller: 'DashboardController'
+    //   })

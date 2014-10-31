@@ -5,8 +5,14 @@
 // added to the .gitignore file, but database.js will have 
 // access to the credentials locally.
 
+// module.exports = {
+//    databaseName: "ChocolateDB",
+//    username: "WillieWonka",
+//    password: "Snozberries"
+// };
+
 module.exports = {
-   databaseName: "ChocolateDB",
-   username: "WillieWonka",
-   password: "Snozberries"
+  databaseName: "lionbase",
+  username: "bc8fa3955e6d18",
+  password: "0385d855537063c"
 };

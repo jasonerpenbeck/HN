@@ -1,4 +1,6 @@
 angular.module('stories', ['storedData'])
   .controller('StoriesController', function ($scope, CurrentData) {
-    $scope.data = CurrentData.stories;
+    console.log('inside StoriesController');
+    $scope.stories = CurrentData.stories;
+    console.log($scope.stories[0].title);
   });
