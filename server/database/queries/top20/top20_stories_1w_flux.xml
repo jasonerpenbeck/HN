@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version=1.0?>
 
 <!--
 -
@@ -14,7 +14,7 @@
 -
 -->
 
-<resultset statement="-- top 20 stories on a topic in the last month
+<resultset statement=-- top 20 stories on a topic in the last month
 -- topic = string match in title
 
 -- day: 86400
@@ -28,266 +28,266 @@ SELECT *
 	WHERE title LIKE '% flux%' OR LEFT(title,4) = 'flux'
 	AND time BETWEEN (1413150888 - 604800) AND 1413150888 
 	ORDER BY score DESC, time DESC 
-	LIMIT 20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	LIMIT 20 xmlns:xsi=http://www.w3.org/2001/XMLSchema-instance>
 
 	<row>
-		<field name="id">8097776</field>
-		<field name="by">diggan</field>
-		<field name="kids">[&quot;8098007&quot;,&quot;8098154&quot;,&quot;8099835&quot;,&quot;8100032&quot;,&quot;8098032&quot;,&quot;8098705&quot;,&quot;8098893&quot;,&quot;8101448&quot;,&quot;8098272&quot;,&quot;8098211&quot;,&quot;8097939&quot;,&quot;8098528&quot;,&quot;8098791&quot;,&quot;8102086&quot;,&quot;8101312&quot;,&quot;8099138&quot;,&quot;8099630&quot;]</field>
-		<field name="score">255</field>
-		<field name="time">1406565079</field>
-		<field name="title">Facebook Flux – Application Architecture for Building User Interfaces</field>
-		<field name="type">story</field>
-		<field name="url">https://github.com/facebook/flux</field>
-		<field name="createdAt">2014-10-23 05:30:32</field>
-		<field name="updatedAt">2014-10-23 05:30:32</field>
+		<field name=id>8097776</field>
+		<field name=by>diggan</field>
+		<field name=kids>[&quot;8098007&quot;,&quot;8098154&quot;,&quot;8099835&quot;,&quot;8100032&quot;,&quot;8098032&quot;,&quot;8098705&quot;,&quot;8098893&quot;,&quot;8101448&quot;,&quot;8098272&quot;,&quot;8098211&quot;,&quot;8097939&quot;,&quot;8098528&quot;,&quot;8098791&quot;,&quot;8102086&quot;,&quot;8101312&quot;,&quot;8099138&quot;,&quot;8099630&quot;]</field>
+		<field name=score>255</field>
+		<field name=time>1406565079</field>
+		<field name=title>Facebook Flux – Application Architecture for Building User Interfaces</field>
+		<field name=type>story</field>
+		<field name=url>https://github.com/facebook/flux</field>
+		<field name=createdAt>2014-10-23 05:30:32</field>
+		<field name=updatedAt>2014-10-23 05:30:32</field>
 	</row>
 
 	<row>
-		<field name="id">7664837</field>
-		<field name="by">Boriss</field>
-		<field name="kids">[&quot;7665536&quot;,&quot;7664962&quot;,&quot;7665175&quot;,&quot;7665390&quot;,&quot;7665717&quot;,&quot;7665370&quot;,&quot;7664991&quot;,&quot;7665120&quot;,&quot;7666059&quot;,&quot;7664992&quot;,&quot;7665630&quot;,&quot;7665035&quot;,&quot;7665109&quot;,&quot;7664894&quot;,&quot;7664987&quot;,&quot;7665202&quot;,&quot;7664941&quot;,&quot;7665259&quot;,&quot;7665784&quot;,&quot;7666553&quot;,&quot;7665756&quot;,&quot;7665023&quot;,&quot;7666268&quot;,&quot;7665161&quot;,&quot;7665404&quot;,&quot;7665384&quot;,&quot;7665230&quot;,&quot;7665986&quot;,&quot;7666566&quot;,&quot;7664949&quot;,&quot;7665622&quot;,&quot;7665665&quot;,&quot;7666029&quot;,&quot;7665342&quot;,&quot;7667020&quot;,&quot;7666275&quot;,&quot;7665421&quot;,&quot;7665129&quot;,&quot;7665546&quot;,&quot;7665326&quot;,&quot;7665670&quot;,&quot;7665229&quot;,&quot;7665278&quot;,&quot;7665679&quot;,&quot;7664914&quot;,&quot;7665046&quot;,&quot;7665061&quot;,&quot;7664996&quot;,&quot;7665562&quot;]</field>
-		<field name="score">246</field>
-		<field name="time">1398743459</field>
-		<field name="title">Firefox and Flux: A New, Beautiful Browser is Coming</field>
-		<field name="type">story</field>
-		<field name="url">http://www.donotlick.com/firefox-and-flux-a-new-beautiful-browser-is-coming/</field>
-		<field name="createdAt">2014-10-23 05:30:33</field>
-		<field name="updatedAt">2014-10-23 05:30:33</field>
+		<field name=id>7664837</field>
+		<field name=by>Boriss</field>
+		<field name=kids>[&quot;7665536&quot;,&quot;7664962&quot;,&quot;7665175&quot;,&quot;7665390&quot;,&quot;7665717&quot;,&quot;7665370&quot;,&quot;7664991&quot;,&quot;7665120&quot;,&quot;7666059&quot;,&quot;7664992&quot;,&quot;7665630&quot;,&quot;7665035&quot;,&quot;7665109&quot;,&quot;7664894&quot;,&quot;7664987&quot;,&quot;7665202&quot;,&quot;7664941&quot;,&quot;7665259&quot;,&quot;7665784&quot;,&quot;7666553&quot;,&quot;7665756&quot;,&quot;7665023&quot;,&quot;7666268&quot;,&quot;7665161&quot;,&quot;7665404&quot;,&quot;7665384&quot;,&quot;7665230&quot;,&quot;7665986&quot;,&quot;7666566&quot;,&quot;7664949&quot;,&quot;7665622&quot;,&quot;7665665&quot;,&quot;7666029&quot;,&quot;7665342&quot;,&quot;7667020&quot;,&quot;7666275&quot;,&quot;7665421&quot;,&quot;7665129&quot;,&quot;7665546&quot;,&quot;7665326&quot;,&quot;7665670&quot;,&quot;7665229&quot;,&quot;7665278&quot;,&quot;7665679&quot;,&quot;7664914&quot;,&quot;7665046&quot;,&quot;7665061&quot;,&quot;7664996&quot;,&quot;7665562&quot;]</field>
+		<field name=score>246</field>
+		<field name=time>1398743459</field>
+		<field name=title>Firefox and Flux: A New, Beautiful Browser is Coming</field>
+		<field name=type>story</field>
+		<field name=url>http://www.donotlick.com/firefox-and-flux-a-new-beautiful-browser-is-coming/</field>
+		<field name=createdAt>2014-10-23 05:30:33</field>
+		<field name=updatedAt>2014-10-23 05:30:33</field>
 	</row>
 
 	<row>
-		<field name="id">8139882</field>
-		<field name="by">jmtulloss</field>
-		<field name="kids">[&quot;8140528&quot;,&quot;8140880&quot;,&quot;8141917&quot;,&quot;8140962&quot;,&quot;8140457&quot;,&quot;8140458&quot;,&quot;8141380&quot;]</field>
-		<field name="score">94</field>
-		<field name="time">1407277551</field>
-		<field name="title">Om and Flux</field>
-		<field name="type">story</field>
-		<field name="url">https://justin.harmonize.fm/development/2014/08/05/om-and-flux.html</field>
-		<field name="createdAt">2014-10-23 05:30:32</field>
-		<field name="updatedAt">2014-10-23 05:30:32</field>
+		<field name=id>8139882</field>
+		<field name=by>jmtulloss</field>
+		<field name=kids>[&quot;8140528&quot;,&quot;8140880&quot;,&quot;8141917&quot;,&quot;8140962&quot;,&quot;8140457&quot;,&quot;8140458&quot;,&quot;8141380&quot;]</field>
+		<field name=score>94</field>
+		<field name=time>1407277551</field>
+		<field name=title>Om and Flux</field>
+		<field name=type>story</field>
+		<field name=url>https://justin.harmonize.fm/development/2014/08/05/om-and-flux.html</field>
+		<field name=createdAt>2014-10-23 05:30:32</field>
+		<field name=updatedAt>2014-10-23 05:30:32</field>
 	</row>
 
 	<row>
-		<field name="id">7752666</field>
-		<field name="by">AaronM</field>
-		<field name="kids">[&quot;7752857&quot;]</field>
-		<field name="score">22</field>
-		<field name="time">1400193549</field>
-		<field name="title">Facebook: MVC Does Not Scale, Use Flux Instead</field>
-		<field name="type">story</field>
-		<field name="url">http://www.infoq.com/news/2014/05/facebook-mvc-flux</field>
-		<field name="createdAt">2014-10-23 05:30:33</field>
-		<field name="updatedAt">2014-10-23 05:30:33</field>
+		<field name=id>7752666</field>
+		<field name=by>AaronM</field>
+		<field name=kids>[&quot;7752857&quot;]</field>
+		<field name=score>22</field>
+		<field name=time>1400193549</field>
+		<field name=title>Facebook: MVC Does Not Scale, Use Flux Instead</field>
+		<field name=type>story</field>
+		<field name=url>http://www.infoq.com/news/2014/05/facebook-mvc-flux</field>
+		<field name=createdAt>2014-10-23 05:30:33</field>
+		<field name=updatedAt>2014-10-23 05:30:33</field>
 	</row>
 
 	<row>
-		<field name="id">1017876</field>
-		<field name="by">transburgh</field>
-		<field name="kids">[&quot;1017987&quot;]</field>
-		<field name="score">17</field>
-		<field name="time">1261961361</field>
-		<field name="title">North Magnetic Pole Moving East Due to Core Flux</field>
-		<field name="type">story</field>
-		<field name="url">http://news.nationalgeographic.com/news/2009/12/091224-north-pole-magnetic-russia-earth-core.html</field>
-		<field name="createdAt">2014-10-21 22:02:02</field>
-		<field name="updatedAt">2014-10-21 22:02:02</field>
+		<field name=id>1017876</field>
+		<field name=by>transburgh</field>
+		<field name=kids>[&quot;1017987&quot;]</field>
+		<field name=score>17</field>
+		<field name=time>1261961361</field>
+		<field name=title>North Magnetic Pole Moving East Due to Core Flux</field>
+		<field name=type>story</field>
+		<field name=url>http://news.nationalgeographic.com/news/2009/12/091224-north-pole-magnetic-russia-earth-core.html</field>
+		<field name=createdAt>2014-10-21 22:02:02</field>
+		<field name=updatedAt>2014-10-21 22:02:02</field>
 	</row>
 
 	<row>
-		<field name="id">6742577</field>
-		<field name="by">makyol</field>
-		<field name="kids">[&quot;6744824&quot;]</field>
-		<field name="score">13</field>
-		<field name="time">1384554341</field>
-		<field name="title">Show HN: Redshift - Flux Alternative, Easy to Install on Ubuntu</field>
-		<field name="type">story</field>
-		<field name="url">http://jonls.dk/redshift/</field>
-		<field name="createdAt">2014-10-24 05:10:30</field>
-		<field name="updatedAt">2014-10-24 05:10:30</field>
+		<field name=id>6742577</field>
+		<field name=by>makyol</field>
+		<field name=kids>[&quot;6744824&quot;]</field>
+		<field name=score>13</field>
+		<field name=time>1384554341</field>
+		<field name=title>Show HN: Redshift - Flux Alternative, Easy to Install on Ubuntu</field>
+		<field name=type>story</field>
+		<field name=url>http://jonls.dk/redshift/</field>
+		<field name=createdAt>2014-10-24 05:10:30</field>
+		<field name=updatedAt>2014-10-24 05:10:30</field>
 	</row>
 
 	<row>
-		<field name="id">8109974</field>
-		<field name="by">jamesgpearce</field>
-		<field name="kids" xsi:nil="true" />
-		<field name="score">10</field>
-		<field name="time">1406743929</field>
-		<field name="title">Facebook Flux: Explaining Actions and the Dispatcher</field>
-		<field name="type">story</field>
-		<field name="url">http://facebook.github.io/react/blog/2014/07/30/flux-actions-and-the-dispatcher.html</field>
-		<field name="createdAt">2014-10-23 05:30:32</field>
-		<field name="updatedAt">2014-10-23 05:30:32</field>
+		<field name=id>8109974</field>
+		<field name=by>jamesgpearce</field>
+		<field name=kids xsi:nil=true />
+		<field name=score>10</field>
+		<field name=time>1406743929</field>
+		<field name=title>Facebook Flux: Explaining Actions and the Dispatcher</field>
+		<field name=type>story</field>
+		<field name=url>http://facebook.github.io/react/blog/2014/07/30/flux-actions-and-the-dispatcher.html</field>
+		<field name=createdAt>2014-10-23 05:30:32</field>
+		<field name=updatedAt>2014-10-23 05:30:32</field>
 	</row>
 
 	<row>
-		<field name="id">7026163</field>
-		<field name="by">sahlhoff</field>
-		<field name="kids">[&quot;7026497&quot;]</field>
-		<field name="score">9</field>
-		<field name="time">1389211577</field>
-		<field name="title">With fluxspaces, San Francisco is using shadow real estate to grow inward</field>
-		<field name="type">story</field>
-		<field name="url">http://pando.com/2014/01/08/with-fluxspaces-san-francisco-is-using-shadow-real-estate-to-grow-inward/</field>
-		<field name="createdAt">2014-10-24 05:10:29</field>
-		<field name="updatedAt">2014-10-24 05:10:29</field>
+		<field name=id>7026163</field>
+		<field name=by>sahlhoff</field>
+		<field name=kids>[&quot;7026497&quot;]</field>
+		<field name=score>9</field>
+		<field name=time>1389211577</field>
+		<field name=title>With fluxspaces, San Francisco is using shadow real estate to grow inward</field>
+		<field name=type>story</field>
+		<field name=url>http://pando.com/2014/01/08/with-fluxspaces-san-francisco-is-using-shadow-real-estate-to-grow-inward/</field>
+		<field name=createdAt>2014-10-24 05:10:29</field>
+		<field name=updatedAt>2014-10-24 05:10:29</field>
 	</row>
 
 	<row>
-		<field name="id">608975</field>
-		<field name="by">themichael</field>
-		<field name="kids">[&quot;609018&quot;,&quot;609019&quot;,&quot;609073&quot;,&quot;609226&quot;,&quot;609231&quot;,&quot;610236&quot;,&quot;609215&quot;,&quot;609142&quot;,&quot;609284&quot;]</field>
-		<field name="score">9</field>
-		<field name="time">1242316544</field>
-		<field name="title">Personal site (URL flux) Feedback appreciated </field>
-		<field name="type">story</field>
-		<field name="url">http://www.urlflux.com</field>
-		<field name="createdAt">2014-10-21 22:02:00</field>
-		<field name="updatedAt">2014-10-21 22:02:00</field>
+		<field name=id>608975</field>
+		<field name=by>themichael</field>
+		<field name=kids>[&quot;609018&quot;,&quot;609019&quot;,&quot;609073&quot;,&quot;609226&quot;,&quot;609231&quot;,&quot;610236&quot;,&quot;609215&quot;,&quot;609142&quot;,&quot;609284&quot;]</field>
+		<field name=score>9</field>
+		<field name=time>1242316544</field>
+		<field name=title>Personal site (URL flux) Feedback appreciated </field>
+		<field name=type>story</field>
+		<field name=url>http://www.urlflux.com</field>
+		<field name=createdAt>2014-10-21 22:02:00</field>
+		<field name=updatedAt>2014-10-21 22:02:00</field>
 	</row>
 
 	<row>
-		<field name="id">8442290</field>
-		<field name="by">forty</field>
-		<field name="kids" xsi:nil="true" />
-		<field name="score">7</field>
-		<field name="time">1413038754</field>
-		<field name="title">Show HN: Reimplementation of Facebook Flux Example in Scala.js</field>
-		<field name="type">story</field>
-		<field name="url">https://github.com/forty/scala-js-flux-example</field>
-		<field name="createdAt">2014-10-23 05:30:31</field>
-		<field name="updatedAt">2014-10-23 05:30:31</field>
+		<field name=id>8442290</field>
+		<field name=by>forty</field>
+		<field name=kids xsi:nil=true />
+		<field name=score>7</field>
+		<field name=time>1413038754</field>
+		<field name=title>Show HN: Reimplementation of Facebook Flux Example in Scala.js</field>
+		<field name=type>story</field>
+		<field name=url>https://github.com/forty/scala-js-flux-example</field>
+		<field name=createdAt>2014-10-23 05:30:31</field>
+		<field name=updatedAt>2014-10-23 05:30:31</field>
 	</row>
 
 	<row>
-		<field name="id">4992830</field>
-		<field name="by">Garbage</field>
-		<field name="kids" xsi:nil="true" />
-		<field name="score">7</field>
-		<field name="time">1357055622</field>
-		<field name="title">Google Glass Features and Apps Still in Flux</field>
-		<field name="type">story</field>
-		<field name="url">http://spectrum.ieee.org/consumer-electronics/gadgets/google-glass-features-and-apps-still-in-flux</field>
-		<field name="createdAt">2014-10-26 08:34:22</field>
-		<field name="updatedAt">2014-10-26 08:34:22</field>
+		<field name=id>4992830</field>
+		<field name=by>Garbage</field>
+		<field name=kids xsi:nil=true />
+		<field name=score>7</field>
+		<field name=time>1357055622</field>
+		<field name=title>Google Glass Features and Apps Still in Flux</field>
+		<field name=type>story</field>
+		<field name=url>http://spectrum.ieee.org/consumer-electronics/gadgets/google-glass-features-and-apps-still-in-flux</field>
+		<field name=createdAt>2014-10-26 08:34:22</field>
+		<field name=updatedAt>2014-10-26 08:34:22</field>
 	</row>
 
 	<row>
-		<field name="id">8395778</field>
-		<field name="by">jashkenas</field>
-		<field name="kids" xsi:nil="true" />
-		<field name="score">6</field>
-		<field name="time">1412181455</field>
-		<field name="title">React Apps Using Flux and Backbone: A How To</field>
-		<field name="type">story</field>
-		<field name="url">http://www.toptal.com/front-end/simple-data-flow-in-react-applications-using-flux-and-backbone</field>
-		<field name="createdAt">2014-10-23 05:30:31</field>
-		<field name="updatedAt">2014-10-23 05:30:31</field>
+		<field name=id>8395778</field>
+		<field name=by>jashkenas</field>
+		<field name=kids xsi:nil=true />
+		<field name=score>6</field>
+		<field name=time>1412181455</field>
+		<field name=title>React Apps Using Flux and Backbone: A How To</field>
+		<field name=type>story</field>
+		<field name=url>http://www.toptal.com/front-end/simple-data-flow-in-react-applications-using-flux-and-backbone</field>
+		<field name=createdAt>2014-10-23 05:30:31</field>
+		<field name=updatedAt>2014-10-23 05:30:31</field>
 	</row>
 
 	<row>
-		<field name="id">8364099</field>
-		<field name="by">jamesgpearce</field>
-		<field name="kids" xsi:nil="true" />
-		<field name="score">5</field>
-		<field name="time">1411592326</field>
-		<field name="title">Testing Flux Applications</field>
-		<field name="type">story</field>
-		<field name="url">http://facebook.github.io/react/blog/2014/09/24/testing-flux-applications.html</field>
-		<field name="createdAt">2014-10-23 05:30:31</field>
-		<field name="updatedAt">2014-10-23 05:30:31</field>
+		<field name=id>8364099</field>
+		<field name=by>jamesgpearce</field>
+		<field name=kids xsi:nil=true />
+		<field name=score>5</field>
+		<field name=time>1411592326</field>
+		<field name=title>Testing Flux Applications</field>
+		<field name=type>story</field>
+		<field name=url>http://facebook.github.io/react/blog/2014/09/24/testing-flux-applications.html</field>
+		<field name=createdAt>2014-10-23 05:30:31</field>
+		<field name=updatedAt>2014-10-23 05:30:31</field>
 	</row>
 
 	<row>
-		<field name="id">8222190</field>
-		<field name="by">fka</field>
-		<field name="kids">[&quot;8222270&quot;]</field>
-		<field name="score">4</field>
-		<field name="time">1408980606</field>
-		<field name="title">DeLorean.js – An Agnostic, Complete Flux Architecture Framework</field>
-		<field name="type">story</field>
-		<field name="url">https://github.com/f/delorean/#</field>
-		<field name="createdAt">2014-10-23 05:30:31</field>
-		<field name="updatedAt">2014-10-23 05:30:31</field>
+		<field name=id>8222190</field>
+		<field name=by>fka</field>
+		<field name=kids>[&quot;8222270&quot;]</field>
+		<field name=score>4</field>
+		<field name=time>1408980606</field>
+		<field name=title>DeLorean.js – An Agnostic, Complete Flux Architecture Framework</field>
+		<field name=type>story</field>
+		<field name=url>https://github.com/f/delorean/#</field>
+		<field name=createdAt>2014-10-23 05:30:31</field>
+		<field name=updatedAt>2014-10-23 05:30:31</field>
 	</row>
 
 	<row>
-		<field name="id">8101171</field>
-		<field name="by">Spoike</field>
-		<field name="kids" xsi:nil="true" />
-		<field name="score">4</field>
-		<field name="time">1406621263</field>
-		<field name="title">Deconstructing React Flux architecture with Reflux</field>
-		<field name="type">story</field>
-		<field name="url">http://spoike.ghost.io/deconstructing-reactjss-flux/</field>
-		<field name="createdAt">2014-10-23 05:30:32</field>
-		<field name="updatedAt">2014-10-23 05:30:32</field>
+		<field name=id>8101171</field>
+		<field name=by>Spoike</field>
+		<field name=kids xsi:nil=true />
+		<field name=score>4</field>
+		<field name=time>1406621263</field>
+		<field name=title>Deconstructing React Flux architecture with Reflux</field>
+		<field name=type>story</field>
+		<field name=url>http://spoike.ghost.io/deconstructing-reactjss-flux/</field>
+		<field name=createdAt>2014-10-23 05:30:32</field>
+		<field name=updatedAt>2014-10-23 05:30:32</field>
 	</row>
 
 	<row>
-		<field name="id">158328</field>
-		<field name="by">timr</field>
-		<field name="kids" xsi:nil="true" />
-		<field name="score">4</field>
-		<field name="time">1207691664</field>
-		<field name="title">Ask Me About My Flux Capacitor</field>
-		<field name="type">story</field>
-		<field name="url">http://www.nytimes.com/2008/04/06/automobiles/collectibles/06EGO.html</field>
-		<field name="createdAt">2014-10-21 21:35:50</field>
-		<field name="updatedAt">2014-10-21 21:35:50</field>
+		<field name=id>158328</field>
+		<field name=by>timr</field>
+		<field name=kids xsi:nil=true />
+		<field name=score>4</field>
+		<field name=time>1207691664</field>
+		<field name=title>Ask Me About My Flux Capacitor</field>
+		<field name=type>story</field>
+		<field name=url>http://www.nytimes.com/2008/04/06/automobiles/collectibles/06EGO.html</field>
+		<field name=createdAt>2014-10-21 21:35:50</field>
+		<field name=updatedAt>2014-10-21 21:35:50</field>
 	</row>
 
 	<row>
-		<field name="id">8024370</field>
-		<field name="by">ingve</field>
-		<field name="kids" xsi:nil="true" />
-		<field name="score">3</field>
-		<field name="time">1405167240</field>
-		<field name="title">Swift InFlux: An attempt to gather all that is in flux in Swift</field>
-		<field name="type">story</field>
-		<field name="url">https://github.com/ksm/SwiftInFlux</field>
-		<field name="createdAt">2014-10-23 05:30:32</field>
-		<field name="updatedAt">2014-10-23 05:30:32</field>
+		<field name=id>8024370</field>
+		<field name=by>ingve</field>
+		<field name=kids xsi:nil=true />
+		<field name=score>3</field>
+		<field name=time>1405167240</field>
+		<field name=title>Swift InFlux: An attempt to gather all that is in flux in Swift</field>
+		<field name=type>story</field>
+		<field name=url>https://github.com/ksm/SwiftInFlux</field>
+		<field name=createdAt>2014-10-23 05:30:32</field>
+		<field name=updatedAt>2014-10-23 05:30:32</field>
 	</row>
 
 	<row>
-		<field name="id">7889862</field>
-		<field name="by">001sky</field>
-		<field name="kids" xsi:nil="true" />
-		<field name="score">3</field>
-		<field name="time">1402679930</field>
-		<field name="title">Geothermal Flux Linked to Antarctic Ice Melt</field>
-		<field name="type">story</field>
-		<field name="url">http://www.pnas.org/content/early/2014/06/04/1405184111.full.pdf+html</field>
-		<field name="createdAt">2014-10-23 05:30:33</field>
-		<field name="updatedAt">2014-10-23 05:30:33</field>
+		<field name=id>7889862</field>
+		<field name=by>001sky</field>
+		<field name=kids xsi:nil=true />
+		<field name=score>3</field>
+		<field name=time>1402679930</field>
+		<field name=title>Geothermal Flux Linked to Antarctic Ice Melt</field>
+		<field name=type>story</field>
+		<field name=url>http://www.pnas.org/content/early/2014/06/04/1405184111.full.pdf+html</field>
+		<field name=createdAt>2014-10-23 05:30:33</field>
+		<field name=updatedAt>2014-10-23 05:30:33</field>
 	</row>
 
 	<row>
-		<field name="id">7808243</field>
-		<field name="by">STRML</field>
-		<field name="kids" xsi:nil="true" />
-		<field name="score">3</field>
-		<field name="time">1401247516</field>
-		<field name="title">Fluxxor – an implementation of the Flux architecture for React.js</field>
-		<field name="type">story</field>
-		<field name="url">http://fluxxor.com/what-is-flux.html</field>
-		<field name="createdAt">2014-10-23 05:30:33</field>
-		<field name="updatedAt">2014-10-23 05:30:33</field>
+		<field name=id>7808243</field>
+		<field name=by>STRML</field>
+		<field name=kids xsi:nil=true />
+		<field name=score>3</field>
+		<field name=time>1401247516</field>
+		<field name=title>Fluxxor – an implementation of the Flux architecture for React.js</field>
+		<field name=type>story</field>
+		<field name=url>http://fluxxor.com/what-is-flux.html</field>
+		<field name=createdAt>2014-10-23 05:30:33</field>
+		<field name=updatedAt>2014-10-23 05:30:33</field>
 	</row>
 
 	<row>
-		<field name="id">7768421</field>
-		<field name="by">antihero</field>
-		<field name="kids" xsi:nil="true" />
-		<field name="score">3</field>
-		<field name="time">1400518380</field>
-		<field name="title">Fluxxor: A set of tools for the Flux architecture.</field>
-		<field name="type">story</field>
-		<field name="url">http://fluxxor.com/</field>
-		<field name="createdAt">2014-10-23 05:30:33</field>
-		<field name="updatedAt">2014-10-23 05:30:33</field>
+		<field name=id>7768421</field>
+		<field name=by>antihero</field>
+		<field name=kids xsi:nil=true />
+		<field name=score>3</field>
+		<field name=time>1400518380</field>
+		<field name=title>Fluxxor: A set of tools for the Flux architecture.</field>
+		<field name=type>story</field>
+		<field name=url>http://fluxxor.com/</field>
+		<field name=createdAt>2014-10-23 05:30:33</field>
+		<field name=updatedAt>2014-10-23 05:30:33</field>
 	</row>
 
 </resultset>

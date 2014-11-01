@@ -1,7 +1,7 @@
-"id","by","kids","score","time","title","type","url","createdAt","updatedAt"
-8443570,"ramigb",NULL,3,1413065552,"Drupal 8.0.0-beta1","story","https://www.drupal.org/node/2348025","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8342048,"regilero","[\"8366444\"]",2,1411154651,"Details of DRUPAL_SA_CORE_2014_003 Deny of Service","story","http://regilero.github.io/security/english/2014/09/19/drupal-details_ofdrupal_sa_core_2014_003_dos/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8413566,"robertDouglass",NULL,1,1412545829,"DrupalCon Amsterdam Prenote – Full Video – Drupal Memories","story","http://www.robshouse.net/content/drupalcon-amsterdam-prenote-drupal-memories-full-video","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8403077,"jtsnow",NULL,1,1412283751,"DrupalCon Amsterdam 2014: Keynote: Cory Doctorow","story","https://www.youtube.com/watch?v=iaf3Sl2r3jE&list=PLpeDXSh4nHjQBf_SOdQgY-k6TnbCn3pSj&index=42","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8394614,"vanessmeyer",NULL,1,1412173995,"CRUD using Backbone.js and Drupal 8","story","http://blog.loadimpact.com/2014/09/30/first-steps-with-crud-using-backbone-js-and-drupal-8/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8393002,"robertDouglass",NULL,1,1412141867,"DrupalCon Amsterdam, Day 2: From Memories to the Future","story","http://forumone.com/insights/drupalcon-amsterdam-day-2-from-memories-to-the-future/","2014-10-23 05:30:31","2014-10-23 05:30:31"
+id,by,kids,score,time,title,type,url,createdAt,updatedAt
+8443570,ramigb,NULL,3,1413065552,Drupal 8.0.0-beta1,story,https://www.drupal.org/node/2348025,2014-10-23 05:30:31,2014-10-23 05:30:31
+8342048,regilero,[8366444],2,1411154651,Details of DRUPAL_SA_CORE_2014_003 Deny of Service,story,http://regilero.github.io/security/english/2014/09/19/drupal-details_ofdrupal_sa_core_2014_003_dos/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8413566,robertDouglass,NULL,1,1412545829,DrupalCon Amsterdam Prenote – Full Video – Drupal Memories,story,http://www.robshouse.net/content/drupalcon-amsterdam-prenote-drupal-memories-full-video,2014-10-23 05:30:31,2014-10-23 05:30:31
+8403077,jtsnow,NULL,1,1412283751,DrupalCon Amsterdam 2014: Keynote: Cory Doctorow,story,https://www.youtube.com/watch?v=iaf3Sl2r3jE&list=PLpeDXSh4nHjQBf_SOdQgY-k6TnbCn3pSj&index=42,2014-10-23 05:30:31,2014-10-23 05:30:31
+8394614,vanessmeyer,NULL,1,1412173995,CRUD using Backbone.js and Drupal 8,story,http://blog.loadimpact.com/2014/09/30/first-steps-with-crud-using-backbone-js-and-drupal-8/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8393002,robertDouglass,NULL,1,1412141867,DrupalCon Amsterdam, Day 2: From Memories to the Future,story,http://forumone.com/insights/drupalcon-amsterdam-day-2-from-memories-to-the-future/,2014-10-23 05:30:31,2014-10-23 05:30:31

@@ -1,7 +1,7 @@
-"id","by","kids","score","time","title","type","url","createdAt","updatedAt"
-8415320,"JeroenRansijn",NULL,4,1412595609,"Show HN: jQuery.input-stepper.js, lightweight input stepper for real world usage","story","https://github.com/AanZee/input-stepper","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8431379,"d3v3r0",NULL,2,1412844991,"Simple jQuery slider tutorial","story","http://alexsblog.org/2014/10/09/simple-jquery-slider-tutorial/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8418314,"dmethvin",NULL,2,1412629612,"JQuery.com September 2014 Security Retrospective","story","http://blog.jquery.com/2014/10/06/jquery-com-september-2014-security-retrospective/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8436620,"JeroenRansijn",NULL,1,1412925710,"Show HN: Jquery.filter-list.js “Filter a list with an input field”","story","https://github.com/AanZee/filter-list","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8426336,"JeroenRansijn","[\"8427157\"]",1,1412767779,"Show HN: Jquery.checkbox-all.js “Enable one checkbox to toggle a whole group”","story","https://github.com/AanZee/checkbox-all","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8426331,"aaronlumsden",NULL,1,1412767714,"Tabulous.js – A jQuery tabs module for today's web","story","http://git.aaronlumsden.com/tabulous.js/","2014-10-23 05:30:31","2014-10-23 05:30:31"
+id,by,kids,score,time,title,type,url,createdAt,updatedAt
+8415320,JeroenRansijn,NULL,4,1412595609,Show HN: jQuery.input-stepper.js, lightweight input stepper for real world usage,story,https://github.com/AanZee/input-stepper,2014-10-23 05:30:31,2014-10-23 05:30:31
+8431379,d3v3r0,NULL,2,1412844991,Simple jQuery slider tutorial,story,http://alexsblog.org/2014/10/09/simple-jquery-slider-tutorial/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8418314,dmethvin,NULL,2,1412629612,JQuery.com September 2014 Security Retrospective,story,http://blog.jquery.com/2014/10/06/jquery-com-september-2014-security-retrospective/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8436620,JeroenRansijn,NULL,1,1412925710,Show HN: Jquery.filter-list.js “Filter a list with an input field”,story,https://github.com/AanZee/filter-list,2014-10-23 05:30:31,2014-10-23 05:30:31
+8426336,JeroenRansijn,[8427157],1,1412767779,Show HN: Jquery.checkbox-all.js “Enable one checkbox to toggle a whole group”,story,https://github.com/AanZee/checkbox-all,2014-10-23 05:30:31,2014-10-23 05:30:31
+8426331,aaronlumsden,NULL,1,1412767714,Tabulous.js – A jQuery tabs module for today's web,story,http://git.aaronlumsden.com/tabulous.js/,2014-10-23 05:30:31,2014-10-23 05:30:31

@@ -1,38 +1,21 @@
 var express = require('express');
 var fs = require('fs');
 var split = require('split');
-var dbRoutes = require('./routes').dbRouter;
-var wcRoutes = require('./routes').wcRouter;
+var dbRoutes = require('./routes');
 var db = require('./database/database.js');
 var https = require('https');
 var bodyParser = require('body-parser');
 var StringDecoder = require('string_decoder').StringDecoder;
 var app = express();
 
-// enables the views of the application to use straight HTML files.
-// essentially we are using ejs as the template for our server's views
-// but not really using ejs in the files at all.
-app.engine('html', require('ejs').renderFile);
-app.set('view engine', 'html');
 
-// tells the application where to go to find the views so that they can
-// be rendered.
-app.set('views', __dirname + '/client');
-
-// tells the application where to go to find static files.
-app.use(express.static(__dirname + './../client'));
+app.use('/', express.static(__dirname + '/../client'));
 
 var dbRouter = express.Router();
-var wcRouter = express.Router();
 
 //create mini app for all db calls
-app.use('/db', dbRouter);
+app.use('/api', dbRouter);
 dbRoutes(dbRouter);
-
-//create mini app for all wordCloud calls
-app.use('/wc', wcRouter);
-wcRoutes(wcRouter);
-
 
 app.use(bodyParser());
 

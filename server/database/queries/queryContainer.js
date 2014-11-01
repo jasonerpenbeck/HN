@@ -1,7 +1,7 @@
 exports.topicQueries = {
   angular: '/queries/topicsPerWeek/angular.csv',
   backbone: '/queries/topicsPerWeek/backbone.csv',
-  bootstrap: '/queries/topicsPerWeek./bootstrap.csv',
+  bootstrap: '/queries/topicsPerWeek/bootstrap.csv',
   d3: '/queries/topicsPerWeek/d3.csv',
   decryption: '/queries/topicsPerWeek/decryption.csv',
   drupal: '/queries/topicsPerWeek/drupal.csv',

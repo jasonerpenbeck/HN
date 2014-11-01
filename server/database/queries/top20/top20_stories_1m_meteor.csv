@@ -1,16 +1,16 @@
-"id","by","kids","score","time","title","type","url","createdAt","updatedAt"
-8423007,"arbesfeld","[\"8424118\",\"8424253\",\"8423985\",\"8424865\",\"8423796\"]",55,1412706730,"Meteor Acquires YC Alum FathomDB for Its Development Platform","story","http://techcrunch.com/2014/10/07/meteor-acquires-yc-alum-fathomdb-for-its-web-development-platform/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8422763,"BradRuderman",NULL,9,1412704634,"Meteor Acquires FathomDb","story","https://www.meteor.com/blog/2014/10/07/fathomdb-joining-meteor","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8409868,"dan335",NULL,9,1412441227,"Dominus is now open source.  Multiplayer browser game made with Meteor","story","https://github.com/dan335/dominus","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8443139,"samhatoum","[\"8448291\"]",5,1413054872,"The Meteor Testing Manual book is now available","story","","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8411602,"jaxonrice","[\"8412037\"]",4,1412489741,"To Find Meteorites, Listen to the Legends of Australian Aborigines","story","http://www.smithsonianmag.com/science-nature/find-meteorites-listen-legends-australian-aborigines-180952941/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8426198,"galfarragem",NULL,3,1412764679,"Why I think MeteorJS will rule programming world","story","http://meteor.hromnik.com/blog/why-i-think-meteorjs-will-rule-programming-world","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8431259,"jbernardo95",NULL,2,1412841395,"How to deploy a Meteor.js application on DigitalOcean","story","https://www.digitalocean.com/community/tutorials/how-to-deploy-a-meteor-js-application-on-ubuntu-14-04-with-nginx","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8429205,"adamelk",NULL,2,1412799260,"First app out built using Meteor, Famo.us, and Cordova","story","https://www.discovermeteor.com/blog/meteor-cordova-famous-the-chill-way-to-build-apps/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8387548,"victorleungtw",NULL,2,1412074601,"Occupy Central in Hong Kong Using MeteorJS and Google Map","story","http://occupycentral.meteor.com/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8445910,"grigio",NULL,1,1413134854,"MeteorJS Italia 7-nov Torino, JavaScript, Node.js, Mongodb","story","http://leganerd.com/?p=302971&secret=pKRe4v","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8443690,"griffinmb","[\"8443711\"]",1,1413069324,"Show HN: Minimal Meteor Scaffolding","story","https://github.com/GriffinMB/astral","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8438501,"arunoda",NULL,1,1412957439,"CPU Profiler for Meteor","story","https://kadira.io/academy/analyze-meteor-cpu-profile/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8427305,"timbrandin",NULL,1,1412781340,"Nordic.meteor.com – A Live Hangout with CORE devs and experts from the community","story","http://nordic.meteor.com","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8401890,"drewvolpe","[\"8401908\"]",1,1412271059,"Meteorologist who gave up air travel, one year later","story","http://www.slate.com/articles/technology/future_tense/2014/10/plane_carbon_footprint_i_went_a_year_without_flying_to_fight_climate_change.html","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8400507,"staatsgeheim",NULL,1,1412254377,"Video: Alleged meteor caught on Russian dash cam","story","http://phys.org/news/2014-10-video-alleged-meteor-caught-russian.html","2014-10-23 05:30:31","2014-10-23 05:30:31"
+id,by,kids,score,time,title,type,url,createdAt,updatedAt
+8423007,arbesfeld,[8424118,8424253,8423985,8424865,8423796],55,1412706730,Meteor Acquires YC Alum FathomDB for Its Development Platform,story,http://techcrunch.com/2014/10/07/meteor-acquires-yc-alum-fathomdb-for-its-web-development-platform/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8422763,BradRuderman,NULL,9,1412704634,Meteor Acquires FathomDb,story,https://www.meteor.com/blog/2014/10/07/fathomdb-joining-meteor,2014-10-23 05:30:31,2014-10-23 05:30:31
+8409868,dan335,NULL,9,1412441227,Dominus is now open source.  Multiplayer browser game made with Meteor,story,https://github.com/dan335/dominus,2014-10-23 05:30:31,2014-10-23 05:30:31
+8443139,samhatoum,[8448291],5,1413054872,The Meteor Testing Manual book is now available,story,,2014-10-23 05:30:31,2014-10-23 05:30:31
+8411602,jaxonrice,[8412037],4,1412489741,To Find Meteorites, Listen to the Legends of Australian Aborigines,story,http://www.smithsonianmag.com/science-nature/find-meteorites-listen-legends-australian-aborigines-180952941/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8426198,galfarragem,NULL,3,1412764679,Why I think MeteorJS will rule programming world,story,http://meteor.hromnik.com/blog/why-i-think-meteorjs-will-rule-programming-world,2014-10-23 05:30:31,2014-10-23 05:30:31
+8431259,jbernardo95,NULL,2,1412841395,How to deploy a Meteor.js application on DigitalOcean,story,https://www.digitalocean.com/community/tutorials/how-to-deploy-a-meteor-js-application-on-ubuntu-14-04-with-nginx,2014-10-23 05:30:31,2014-10-23 05:30:31
+8429205,adamelk,NULL,2,1412799260,First app out built using Meteor, Famo.us, and Cordova,story,https://www.discovermeteor.com/blog/meteor-cordova-famous-the-chill-way-to-build-apps/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8387548,victorleungtw,NULL,2,1412074601,Occupy Central in Hong Kong Using MeteorJS and Google Map,story,http://occupycentral.meteor.com/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8445910,grigio,NULL,1,1413134854,MeteorJS Italia 7-nov Torino, JavaScript, Node.js, Mongodb,story,http://leganerd.com/?p=302971&secret=pKRe4v,2014-10-23 05:30:31,2014-10-23 05:30:31
+8443690,griffinmb,[8443711],1,1413069324,Show HN: Minimal Meteor Scaffolding,story,https://github.com/GriffinMB/astral,2014-10-23 05:30:31,2014-10-23 05:30:31
+8438501,arunoda,NULL,1,1412957439,CPU Profiler for Meteor,story,https://kadira.io/academy/analyze-meteor-cpu-profile/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8427305,timbrandin,NULL,1,1412781340,Nordic.meteor.com – A Live Hangout with CORE devs and experts from the community,story,http://nordic.meteor.com,2014-10-23 05:30:31,2014-10-23 05:30:31
+8401890,drewvolpe,[8401908],1,1412271059,Meteorologist who gave up air travel, one year later,story,http://www.slate.com/articles/technology/future_tense/2014/10/plane_carbon_footprint_i_went_a_year_without_flying_to_fight_climate_change.html,2014-10-23 05:30:31,2014-10-23 05:30:31
+8400507,staatsgeheim,NULL,1,1412254377,Video: Alleged meteor caught on Russian dash cam,story,http://phys.org/news/2014-10-video-alleged-meteor-caught-russian.html,2014-10-23 05:30:31,2014-10-23 05:30:31

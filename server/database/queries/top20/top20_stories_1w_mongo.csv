@@ -1,8 +1,8 @@
-"id","by","kids","score","time","title","type","url","createdAt","updatedAt"
-8413582,"kennybastani","[\"8416143\"]",6,1412546174,"Switching from MongoDB to Neo4j","story","http://seenickcode.com/switching-from-mongodb-to-neo4j/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8435169,"alabid","[\"8435578\"]",4,1412891068,"MongoDB tools rewritten in Golang","story","https://github.com/mongodb/mongo-tools","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8427662,"arkham",NULL,3,1412784538,"MongoDB Sharding Pitfalls Part II: Running a Sharded Cluster","story","http://blog.mongodb.org/post/99486531903/sharding-pitfalls-part-ii-running-a-sharded-cluster","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8420414,"tilt",NULL,3,1412678486,"Mean-stack.io: Source for MongoDB, Express, Angular and Node.js Related Content","story","http://mean-stack.io/","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8445910,"grigio",NULL,1,1413134854,"MeteorJS Italia 7-nov Torino, JavaScript, Node.js, Mongodb","story","http://leganerd.com/?p=302971&secret=pKRe4v","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8443163,"mirekrusin","[\"8443165\"]",1,1413055189,"Single line Node.js API tests with criteria query in MongoDB format","story","https://github.com/mirek/node-json-criteria","2014-10-23 05:30:31","2014-10-23 05:30:31"
-8420254,"fauria",NULL,1,1412674085,"Mongoose Population","story","http://jaketrent.com/post/mongoose-population/","2014-10-23 05:30:31","2014-10-23 05:30:31"
+id,by,kids,score,time,title,type,url,createdAt,updatedAt
+8413582,kennybastani,[8416143],6,1412546174,Switching from MongoDB to Neo4j,story,http://seenickcode.com/switching-from-mongodb-to-neo4j/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8435169,alabid,[8435578],4,1412891068,MongoDB tools rewritten in Golang,story,https://github.com/mongodb/mongo-tools,2014-10-23 05:30:31,2014-10-23 05:30:31
+8427662,arkham,NULL,3,1412784538,MongoDB Sharding Pitfalls Part II: Running a Sharded Cluster,story,http://blog.mongodb.org/post/99486531903/sharding-pitfalls-part-ii-running-a-sharded-cluster,2014-10-23 05:30:31,2014-10-23 05:30:31
+8420414,tilt,NULL,3,1412678486,Mean-stack.io: Source for MongoDB, Express, Angular and Node.js Related Content,story,http://mean-stack.io/,2014-10-23 05:30:31,2014-10-23 05:30:31
+8445910,grigio,NULL,1,1413134854,MeteorJS Italia 7-nov Torino, JavaScript, Node.js, Mongodb,story,http://leganerd.com/?p=302971&secret=pKRe4v,2014-10-23 05:30:31,2014-10-23 05:30:31
+8443163,mirekrusin,[8443165],1,1413055189,Single line Node.js API tests with criteria query in MongoDB format,story,https://github.com/mirek/node-json-criteria,2014-10-23 05:30:31,2014-10-23 05:30:31
+8420254,fauria,NULL,1,1412674085,Mongoose Population,story,http://jaketrent.com/post/mongoose-population/,2014-10-23 05:30:31,2014-10-23 05:30:31
